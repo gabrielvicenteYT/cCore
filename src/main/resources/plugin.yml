@@ -1,0 +1,62 @@
+name: CCore
+version: ${project.version}
+main: cc.causalmc.ccore.CCore
+depend:
+  - LuckPerms
+  - LunarClient-API
+softdepend:
+  - CTF
+commands:
+  test:
+  discord:
+    aliases: [ds]
+  tp:
+    aliases: [teleport, teleportto, tpto]
+  tphere:
+    aliases: [teleporthere, teleporttome, tptome]
+  tppos:
+    aliases: [teleportpos, teleportposition, tpposition]
+  enchant:
+  ping:
+    aliases: [ms, latence]
+    #nick:
+    #aliases: [disguise]
+  donate:
+    aliases: [store, boutique]
+  clear:
+  grant:
+    aliases: [setrank]
+  tpall:
+    aliases: [teleportall]
+  invsee:
+    aliases: [inventaire, inv]
+  lag:
+    aliases: [serverlag]
+  give:
+  rename:
+  more:
+  kill:
+  killall:
+  heal:
+  kickall:
+  feed:
+  gmc:
+  gms:
+  gma:
+  gmsp:
+  gamemode:
+    aliases: [gm]
+    #nicklist:
+    #aliases: [disguiselist]
+  #realname:
+  #unnick:
+  coins:
+  credits:
+  tags:
+    aliases: [prefix]
+  perma:
+    aliases: [blacklist]
+  cosmetics:
+    aliases: [cos]
+  ver:
+    aliases: [version, icanhasbukkit, about]
